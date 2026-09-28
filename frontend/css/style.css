@@ -39,6 +39,22 @@
     --tg-bubble-in: rgba(23, 33, 43, 0.88);
 }
 
+[data-theme="ai-nexus-light"] {
+    --bg-color: #f8fafc;
+    --panel-bg: rgba(255, 255, 255, 0.88);
+    --panel-border: rgba(0, 0, 0, 0.08);
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --primary-glow: rgba(37, 99, 235, 0.25);
+    --accent: #0ea5e9;
+    --accent-hover: #0284c7;
+    --accent-glow: rgba(14, 165, 233, 0.25);
+    --tg-bubble-out: linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(29, 78, 216, 0.95));
+    --tg-bubble-in: rgba(241, 245, 249, 0.95);
+}
+
 [data-theme="midnight-titanium"] {
     --bg-color: #090e17;
     --panel-bg: rgba(15, 23, 42, 0.84);

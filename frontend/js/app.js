@@ -348,7 +348,7 @@ const ESCTRIX = {
             this.state.sfxEnabled = sfx === 'true';
             if (this.elements.prefSfxToggle) this.elements.prefSfxToggle.checked = this.state.sfxEnabled;
         }
-        const theme = localStorage.getItem('esctrix_theme') || 'cyber-obsidian';
+        const theme = localStorage.getItem('esctrix_theme') || 'ai-nexus-light';
         document.documentElement.setAttribute('data-theme', theme);
         this.settings?.loadTheme();
 
@@ -1946,7 +1946,7 @@ const ESCTRIX = {
         },
 
         loadTheme() {
-            const saved = localStorage.getItem('esctrix_theme') || 'cyber-obsidian';
+            const saved = localStorage.getItem('esctrix_theme') || 'ai-nexus-light';
             document.documentElement.setAttribute('data-theme', saved);
             document.querySelectorAll('.theme-card').forEach(c => {
                 c.classList.toggle('active', c.dataset.theme === saved);
